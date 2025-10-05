@@ -1,0 +1,35 @@
+import React from 'react'
+
+function Header() {
+  return (
+    <div className = "header">
+      <img
+        src = "https://wildfiresocial.com/wp-content/uploads/2019/01/amazon-logo-white._cb1509666198_.png"
+      />
+
+      <div classname = "header__search">
+        <input
+          className='header__searchInput'
+          type='text'
+          placeholder='Search Amazon.com'>
+        </input>
+        {/*Logo*/}
+      </div>
+
+      <div className='header__nav'>
+        <div className='header__option'>
+          <span className='header__optionLineOne'>Hello, sign in</span>
+          <span className='header__optionLineTwo'>Accounts & Lists</span>
+        </div>
+
+        <div className='header__option'>
+          <span className='header__optionLineOne'>Returns</span>
+          <span className='header__optionLineTwo'>& Orders</span>
+        </div>
+
+      </div>
+    </div>
+  )
+}
+
+export default Header
