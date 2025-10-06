@@ -19,9 +19,20 @@ body {
     object-fit: contain;
 }
 
+.header__delivery {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 150px;
+}
+
+.header__deliveryLogo {
+    color: #FFFFFF;
+}
+
 .header__search {
     display: flex;
-    flex: 2.5;
+    flex: 2;
     flex-direction: row;
     align-items: center;
 }

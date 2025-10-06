@@ -12,6 +12,10 @@ function Header() {
 
       <div className="header__delivery">
         <PlaceOutlinedIcon className='header__deliveryLogo'/>
+        <div className='header__option'>
+          <span className='header__optionLineOne'>Delivering to</span>
+          <span className='header__optionLineTwo'>Lleida 25005</span>
+        </div>
       </div>
       <div className = "header__search">
         <input
