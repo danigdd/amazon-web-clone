@@ -1,13 +1,14 @@
 import React from 'react'
+import "./Header.css"
 
 function Header() {
   return (
     <div className = "header">
       <img
-        src = "https://wildfiresocial.com/wp-content/uploads/2019/01/amazon-logo-white._cb1509666198_.png"
-      />
+        className = "header__logo"
+        src = "https://wildfiresocial.com/wp-content/uploads/2019/01/amazon-logo-white._cb1509666198_.png"/>
 
-      <div classname = "header__search">
+      <div className = "header__search">
         <input
           className='header__searchInput'
           type='text'
