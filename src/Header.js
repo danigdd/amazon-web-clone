@@ -17,6 +17,7 @@ function Header() {
           <span className='header__optionLineTwo'>Lleida 25005</span>
         </div>
       </div>
+
       <div className = "header__search">
         <input
           className='header__searchInput'
@@ -27,7 +28,11 @@ function Header() {
       </div>
 
       <div className='header__nav'>
-        {/*Language logo*/}
+        <div className='header__navLanguage'>
+          <span className='header__navLanguageLogo'>&#127468;&#127463;</span>
+          <span className = 'header__navLanguageText'>EN</span>
+        </div>
+
         <div className='header__option'>
           <span className='header__optionLineOne'>Hello, sign in</span>
           <span className='header__optionLineTwo'>Accounts & Lists</span>

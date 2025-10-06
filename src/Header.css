@@ -64,6 +64,28 @@ body {
     flex: 1;
     flex-direction: row;
     justify-content: space-evenly;
+    margin: 0px 10px;
+}
+
+.header__navLanguage {
+    margin: 0px 3px;
+    padding-bottom: 5px;
+    display: flex;
+    width: 75px;
+    flex-direction: row;
+    align-items: end;
+}
+
+.header__navLanguageLogo {
+    font-size: 20px;
+}
+
+.header__navLanguageText {
+    margin-left: 5px;
+    font-size: 15px;
+    color: #FFFFFF;
+    padding-bottom: 6px;
+    font-weight: bold;
 }
 .header__option {
     display: flex;
